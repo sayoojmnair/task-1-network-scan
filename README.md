@@ -1,13 +1,16 @@
-# Task 1: Scan Your Local Network for Open Ports
+# Task 1: Network Scan (Cyber Security Internship)
 
 ## 🎯 Objective
-To discover open ports on devices in the local network using Nmap, and understand potential service exposures.
+To scan the local network for open ports using **Nmap** and understand network exposure risks.
 
-## 🧰 Tools Used
-- Kali Linux (in VirtualBox)
-- Nmap
-- (Optional) Wireshark
+---
 
-## 🔍 Scan Command Used
+## 🛠 Tools Used
+- [Nmap](https://nmap.org/) — for scanning local IP range
+- [Wireshark](https://www.wireshark.org/) (optional) — for packet analysis (not used here)
+
+---
+
+## 📡 Scan Command
 ```bash
-sudo nmap -sS 192.168.81.99/24 -oN scan_result.txt
+nmap -sS 192.168.1.0/24
