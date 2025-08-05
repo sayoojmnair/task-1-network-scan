@@ -1,3 +1,5 @@
+> 🧠 This task was completed as part of my **Cybersecurity Internship at Elevate Labs**.
+
 # Task 1: Network Scan (Cyber Security Internship)
 
 ## 🎯 Objective
